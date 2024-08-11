@@ -5,8 +5,6 @@ def package_tracking_sort(arr):
         for j in range(i+1, l):
             if arr[j] < arr[min_index]:
                 min_index = j
-            if arr[j] > arr[min_index]:
-                min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
     
     print("Sorted tracking numbers:", arr)
