@@ -6,7 +6,7 @@ def product_id_sort(arr,l):
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
     
-    print("", arr)
+    print("After Sorting Product IDs:", arr)
     
     
     
